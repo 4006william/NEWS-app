@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  height: 3000px;
+  background: lightblue url("./wood.jpg") repeat;
+}
+
+.heading{
+  animation: Header-spin infinite 4s ;
+  font-weight: bolder;
+  font-size: 35px;
+  background: blanchedalmond;
+}
+input{
+  padding: 10px;
+  width: 40%;
+  margin-right: 20px;
+  background: blanchedalmond;
+}
+.search-btn{
+  background: blanchedalmond;
+  color: black;
+  padding: 10px;
+  font-style: bolder;
+}
+.article{
+  background: lightgrey;
+  color: black;
+  margin: 2% 5%;
+  padding: 10px;
+}
+
+
+@keyframes Header-spin {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
